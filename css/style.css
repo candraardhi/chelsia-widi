@@ -17,6 +17,7 @@
 
 h1{
   font-size: 6rem;
+  
 }
 
 h3 {
@@ -39,7 +40,8 @@ h4 {
 }
 
 .bg-wakwak {
-  background-color: #f1faee;
+  background-color: #1d3557; /* warna biru tua kamu */
+  color: #ffffff;
 }
 
 .bg-wakwak p,
@@ -74,17 +76,17 @@ h4 {
 
 .fs-60 {
   font-size: 60px;
-  text-shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+  text-shadow: 0 2px 2px rgb(0 0 0 / 0.7);
 }
 
 .fs-45 {
   font-size: 45px;
-  text-shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+  text-shadow: 0 2px 2px rgb(0 0 0 / 0.7);
 }
 
 .fs-40 {
   font-size: 40px;
-  text-shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+  text-shadow: 0 2px 2px rgb(0 0 0 / 0.7);
 }
 
 .scale {
