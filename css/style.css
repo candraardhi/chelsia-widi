@@ -15,15 +15,21 @@
   font-family: "Open Sans", cursive;
 }
 
-h1{
-  font-size: 6rem;
+.salam-penutup {
+  font-size: 1.5rem; /* ganti sesuai keinginan */
+  font-weight: 400; /* optional */
+  text-align: center; /* optional */
+}
+.mempelai {
+  color: #1d3557;
 }
 
-h3 {
+h6 {
   font-size: 2.5rem;
+  color: #f1faee;
 }
 
-h4 {
+h5 {
   font-size: 4rem;
 }
 
@@ -49,7 +55,6 @@ h4 {
 .bg-wakwak h1,
 .bg-wakwak h3 {
   text-shadow: 0 2px 2px rgb(0 0 0 / 0.5);
-  color: #f1faee;
 }
 
 .bg-wakwak h3 {
@@ -103,6 +108,17 @@ h4 {
   outline: none;
 }
 
+/* Hanya teks utama undangan di front-text */
+#front-text h5,
+#front-text p small,
+#front-text span.mb-1,
+#front-text p.mb-2.mt-2,
+#front-text p.mb-2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+
 @media (max-width: 574px) {
   html {
     font-size: 70%;
@@ -115,6 +131,7 @@ h4 {
     height: 100vh;
     background-image: url(../img/IMG_1620.jpg); background-size: cover;
     background-position: center;
+    
   }
 }
 
